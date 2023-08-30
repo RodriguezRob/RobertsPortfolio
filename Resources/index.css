@@ -137,17 +137,18 @@ header{
 #centerChunk{
     grid-column: 1 / 4;
     grid-row: 2 / 3;
-    display: block;
+    display: flex;
+    flex-direction: column;
     height: 50%;
     justify-items: center;
     align-items: center;
-    margin-top: 2rem;
+
 
 }
 #mainTitle{
     width: 100%;
-    height: 9rem;
     margin-top: 0;
+    display: flex;
 }
 #mainTitle p {
     font-family: 'Bebas Neue';
@@ -167,7 +168,6 @@ header{
     display: flex;
     width: 60%;
     justify-content: space-between;
-    margin: auto;
     margin-bottom: 0;
     font-size: 1.25rem;
     font-family: "Poppins";
